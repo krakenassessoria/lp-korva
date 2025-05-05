@@ -53,9 +53,9 @@ const images = [
 
 const GaleriaShow = () => {
   return (
-    <div className="relative w-full h-screen overflow-hidden bg-cover bg-center" style={{ backgroundImage: "url('/background4.jpg')" }}>
-      <div className="relative z-10 flex flex-col items-center justify-center w-full h-full text-center text-white bg-black bg-opacity-70">
-        <Carrousel images={images} titulo={"O ESPETÁCULO"} top={"pt-1 lg:pt-4"} largura={"max-w-[95vw] lg:max-w-[25vw]"} />
+    <div className="relative w-full min-h-[100vh] overflow-hidden bg-cover bg-center" style={{ backgroundImage: "url('/background4.jpg')" }}>
+      <div className="relative z-10 flex flex-col items-center justify-center w-full min-h-[100vh] text-center text-white bg-black bg-opacity-70 py-16">
+        <Carrousel images={images} titulo={"O ESPETÁCULO"} top={"pt-1 lg:pt-4"} largura={"max-w-[95vw] lg:max-w-[23vw]"} />
       </div>
     </div>
   )

@@ -12,7 +12,7 @@ const Venda = () => {
         <h4 className='text-xs lg:text-base italic mb-6 mt-4'>Classificação livre</h4>
         <div className='flex flex-col w-full items-center justify-center max-w-3xl mx-auto space-y-6'>
           <div className='text-left lg:w-[28vw] h-auto pt-4 ml-10 lg:ml-0'>
-            <p className='text-sm lg:text-base'><b className='font-bold'>De</b> <span className='line-through'>R$ 399,90</span></p>
+            <p className='text-sm lg:text-base'><b className='font-bold'>De</b> <span className='line-through'>R$ 449,90</span></p>
             <p><b className='font-bold'>Por:</b> </p>
             <p><b className='font-bold text-xs'>A partir de</b>
               <span className='text-2xl lg:text-4xl font-bold'>R$ 198,00</span>

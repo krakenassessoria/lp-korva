@@ -36,7 +36,8 @@ const Hero = () => {
             <p className="text-xl lg:text-2xl font-bold px-10">PRATICAR O BEM É DESPERTAR A MAGIA DA VIDA</p>
         </div>
         <div className="py-10">
-            <button onClick={evento1} target="_blank"  className="mt-6 bg-[#a68b39] text-white font-bold py-3 px-6 text-lg rounded hover:bg-[#8b6e2d] transition duration-300">
+            <button onClick={evento1} target="_blank"  
+            className="mt-6 bg-[#bca404] text-white font-bold py-3 px-8 rounded hover:bg-[#8b6e2d] transition duration-300">
               Reserve Agora
             </button>
         </div>

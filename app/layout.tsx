@@ -29,6 +29,36 @@ export default function RootLayout({
   return (
     <html lang="pt-BR">
       <head>
+        
+        {/* Script Planne Widget */}
+        <Script
+          id="planne-widget"
+          strategy="afterInteractive"
+          dangerouslySetInnerHTML={{
+            __html: `(function(w,d,t,u,c,v,y) {
+                            if(w.plnn)return;
+                            y=w.plnn=function(){
+                              y.callMethod?y.callMethod.apply(y,arguments):y.queue.push(arguments)
+                            };
+                            y.queue=[];
+                            v=d.createElement(t);
+                            v.async=!0;
+                            v.src=u;
+                            c=d.getElementsByTagName(t)[0];
+                            c.parentNode.insertBefore(v,c);
+                          })
+                          
+                          (window,document,'script','https://widget.planne.com.br/widget.js');
+
+                          plnn('init', 'ae11cb31-6e34-4173-9d40-bb0fbab4c995');
+                          plnn('parameter', 'action-color', '#bca404');
+                          plnn('parameter', 'checkout-page', '/pagamento');
+                          plnn('parameter', 'checkout-back-to', '/');
+                          plnn('parameter', 'account-page', '/conta');
+                        `}}
+        />
+
+
         <Script
           id="gtm-script"
           strategy="afterInteractive"

@@ -25,13 +25,16 @@ const Venda = () => {
             <p>* Mesas de 2 pessoas precisam de no mínimo 1 adulto, enquanto mesas de 4 pessoas precisam de no mínimo 2 adultos</p>
             <p>Bebidas não inclusas</p>
           </div>
-          <div className="py-10">
-            <Link onClick={() => sendGTMEvent({ event: 'buttonClicked', value: 'venda' })}
-            href={"https://www.gatzz.com.br/sequencia-de-fondue-premium-com-espetaculo-tematico?origin=BAY6042N"}
-            target="_blank"  className="mt-6 bg-[#a68b39] text-white font-bold text-lg py-3 px-6 rounded hover:bg-[#8b6e2d] transition duration-300">
-              Comprar Agora
-            </Link>
-        </div>
+          <span className="py-4 pb-6 w-[300px]">
+            <div className="planne-widget planne-widget-product-adder"
+              data-widget-product-id={4332}
+              data-widget-checkout-page="/pagamento"
+              data-widget-business-name="Gatzz Dinner Show"
+              data-widget-product-cta-text="Reservar"
+              data-cy="productAdderModal"
+              data-widget-enable-modal="true">
+          </div>
+        </span>
         </div>
       </div>
     </div>

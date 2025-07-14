@@ -29,7 +29,7 @@ export default function RootLayout({
   return (
     <html lang="pt-BR">
       <head>
-        
+
         {/* Script Planne Widget */}
         <Script
           id="planne-widget"
@@ -57,7 +57,6 @@ export default function RootLayout({
                           plnn('parameter', 'account-page', '/conta');
                         `}}
         />
-
 
         <Script
           id="gtm-script"

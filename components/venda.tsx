@@ -23,7 +23,7 @@ const Venda = () => {
           <div className='text-sm lg:text-base space-y-4'>
             <p>Atendimento somente com reserva de mesa</p>
             <p>* Mesas de 2 pessoas precisam de no mínimo 1 adulto, enquanto mesas de 4 pessoas precisam de no mínimo 2 adultos</p>
-            <p>Bebidas não inclusas</p>
+            <p>Bebidas e taxa de serviço não inclusas</p>
           </div>
           <span className="py-4 pb-6 w-[300px]">
             <div className="planne-widget planne-widget-product-adder"

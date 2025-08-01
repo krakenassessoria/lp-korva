@@ -41,7 +41,7 @@ const Hero = () => {
               Reserve Agora
             </button>
         </div>
-        <span className='relative z-10 text-sm mt-5 px-20'>Todos os sábados ao meio-dia no Gatzz Dinner Show</span>
+        <span className='relative z-10 text-sm mt-5 px-20'>Sextas com jantar e sábados com almoço no Gatzz Dinner Show</span>
       </div>
     </div>
   );

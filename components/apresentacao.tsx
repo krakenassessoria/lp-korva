@@ -27,7 +27,7 @@ const Apresentacao = () => {
           Com música ao vivo, teatro, dança e acrobacias, este espetáculo desperta o que há de mais puro em cada um de nós.
           </p>
           <p>
-          Um sábado no GATZZ onde o impossível ganha forma — e pequenos gestos podem mudar tudo.
+          No GATZZ o impossível ganha forma — e pequenos gestos podem mudar tudo.
           </p>
         </div>
       </div>

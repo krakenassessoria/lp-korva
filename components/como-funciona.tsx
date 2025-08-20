@@ -10,23 +10,20 @@ const ComoFunciona = () => {
           <p><b className='font-bold'><FaCalendarAlt className="inline mr-2"/>Quando Acontece o show Korvatunturi:</b></p>
           <p className='ml-6'>Sextas com jantar e sábados com almoço</p>
           <div>
-            <p className='pt-6'><b className='font-bold text-lg'><FaClock className="inline mr-2"/>{"Programação das 12:00"}</b></p>
+            <p className='pt-6'><b className='font-bold text-lg'><FaClock className="inline mr-2"/>{"Programação das 12:00 (sábados):"}</b></p>
             <ul className='list-disc ml-5 pl-5 space-y-2'>
-              <li>Início do check-in: 11:30</li>
-              <li>{"Almoço inicia às 12:00 (Sequência de Fondue Premium: Fondue de Queijo, Fondue de Carnes Nobres, Fondue de Chocolates de Gramado);"}</li>
-              <li>{"Horário limite de chegada para o almoço completo é até às 12:15, o serviço do Fondue das Carnes encerra às 13:45 (para não atrapalhar o seu espetáculo);"}</li>
+              <li>Início do check-in: 12:00</li>
+              <li>{"Almoço servido das 12:30 às 14:15 (Sequência de Fondue Premium: Fondue de Queijo, Fondue de Carnes Nobres, Fondue de Chocolates de Gramado);"}</li>
+              <li>{"Horário limite de chegada para o jantar completo é até às 13:00"}</li>
               <li>O Fondue de Chocolate é servido minutos antes do início do Show para que aprecie o chocolate de Gramado durante o espetáculo.</li>
-              <li>Encerramento/saídas: 14:30</li>
             </ul>
           </div>
-
           <div>
-            <p className='pt-6'><b className='font-bold text-lg'><FaClock className="inline mr-2"/>{"Programação das 18:30:"}</b></p>
+            <p className='pt-6'><b className='font-bold text-lg'><FaClock className="inline mr-2"/>{"Programação das 19:00:"}</b></p>
             <ul className='list-disc ml-5 pl-5 space-y-2'>
-              <li>Início do check-in: 18:00</li>
-              <li>{"Jantar servido das 18:30 às 20:30 (Sequência de Fondue Premium: Fondue de Queijo, Fondue de Carnes Nobres, Fondue de Chocolates de Gramado);"}</li>
-              <li>{"Horário limite de chegada para o jantar completo é até às 18:30, o serviço do Fondue das Carnes encerra até 20:00 (para não atrapalhar o seu espetáculo);"}</li>
-              <li>Espetáculo inicia às 20:00</li>
+              <li>Início do check-in: 18:30</li>
+              <li>{"Jantar servido das 19:00 às 20:45 (Sequência de Fondue Premium: Fondue de Queijo, Fondue de Carnes Nobres, Fondue de Chocolates de Gramado);"}</li>
+              <li>{"Horário limite de chegada para o jantar completo é até às 19:30"}</li>
               <li>O Fondue de Chocolate é servido minutos antes do início do Show para que aprecie o chocolate de Gramado durante o espetáculo.</li>
             </ul>
           </div>
@@ -34,9 +31,8 @@ const ComoFunciona = () => {
             <p className='pt-6'><b className='font-bold text-lg'><FaClock className="inline mr-2"/>{"Programação das 21:30:"} - <span>(Em altas temporadas)</span></b></p>
             <ul className='list-disc ml-5 pl-5 space-y-2'>
               <li>Início do check-in: 21:00</li>
-              <li>{"Jantar servido das 21:30 às 0:00 (Sequência de Fondue Premium: Fondue de Queijo, Fondue de Carnes Nobres, Fondue de Chocolates de Gramado);"}</li>
-              <li>{"Horário limite de chegada para o jantar completo é até às 21:30, o serviço do Fondue das Carnes encerra até 23:00 (para não atrapalhar o seu espetáculo);"}</li>
-              <li>Espetáculo inicia às 23:00</li>
+              <li>{"Jantar servido das 21:30 às 23:15 (Sequência de Fondue Premium: Fondue de Queijo, Fondue de Carnes Nobres, Fondue de Chocolates de Gramado);"}</li>
+              <li>{"Horário limite de chegada para o jantar completo é até às 22:00"}</li>
               <li>O Fondue de Chocolate é servido minutos antes do início do Show para que aprecie o chocolate de Gramado durante o espetáculo.</li>
             </ul>
           </div>

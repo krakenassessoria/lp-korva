@@ -14,7 +14,7 @@ const Show = () => {
         
         
       <div className="mt-10 px-5 text-[14px] lg:text-base lg:max-w-3xl text-justify space-y-1">
-          <p className="font-bold">Todos os dias um show espetacular! </p>
+          <p className="font-bold">Todo dia um show espetacular! </p>
       </div>
 
       <div className="pt-6 px-2">

@@ -2,7 +2,7 @@ import Image from "next/image"
 
 const Apresentacao = () => {
   return (
-    <div className="relative w-full h-screen items-center overflow-hidden bg-cover bg-center" style={{ backgroundImage: "url('/background1.jpg')" }}>
+    <div className="relative w-full min-h-[100vh] items-center overflow-hidden bg-cover bg-center" style={{ backgroundImage: "url('/background1.jpg')" }}>
       <div className="relative z-10 flex flex-col items-center justify-center w-full min-h-[100vh] text-center text-white bg-black bg-opacity-70">
         <div>
             <Image priority src={"/gatzz.png"} alt="Gatzz" width={200} height={95} />

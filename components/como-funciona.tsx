@@ -3,8 +3,8 @@ import { FaRegHourglass, FaPersonCircleExclamation } from "react-icons/fa6";
 
 const ComoFunciona = () => {
   return (
-    <div className="relative w-full overflow-hidden bg-cover bg-center" style={{ backgroundImage: "url('/background2.jpg')" }}>
-      <div className="relative z-10 pb-28 flex flex-col min-h-[100vh] pt-28 lg:items-center lg:justify-center w-full text-center text-white bg-black bg-opacity-70">
+    <div className="relative w-full min-h-[100vh] overflow-hidden bg-cover bg-center" style={{ backgroundImage: "url('/background2.jpg')" }}>
+      <div className="relative z-10 pb-28 flex flex-col pt-28 lg:items-center lg:justify-center w-full min-h-[100vh] text-center text-white bg-black bg-opacity-70">
         <div className='flex flex-col w-full max-w-4xl mx-auto text-left space-y-2 px-5 text-sm'>
           <h1 className='text-2xl font-bold py-3'>Como funciona</h1>
           <p><b className='font-bold'><FaCalendarAlt className="inline mr-2"/>Quando Acontece o show Korvatunturi:</b></p>

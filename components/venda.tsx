@@ -4,8 +4,8 @@ import Link from 'next/link';
 
 const Venda = () => {
   return (
-    <div id="venda" className="relative w-full snap-start overflow-hidden bg-cover bg-center" style={{ backgroundImage: "url('/background7.jpg')" }}>
-      <div className="relative z-10 flex flex-col min-h-[100vh] items-center justify-center w-full h-full pt-10 px-4 text-center text-white bg-black bg-opacity-70">
+    <div id="venda" className="relative w-full min-h-[100vh] snap-start overflow-hidden bg-cover bg-center" style={{ backgroundImage: "url('/background7.jpg')" }}>
+      <div className="relative z-10 flex flex-col items-center justify-center w-full min-h-[100vh] pt-10 px-4 text-center text-white bg-black bg-opacity-70">
         <h1 className="text-xl lg:text-3xl font-bold mb-4 mt-30">GARANTA AGORA A SUA RESERVA</h1>
         <h2 className='text-md lg:text-xl font-bold mb-4'>Show Korvatunturi + Fondue Premium</h2>
         <h3 className='text-xs lg:text-base italic mb-1'>Sextas com jantar e sábados com almoço</h3>

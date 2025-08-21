@@ -7,8 +7,8 @@ import Image from 'next/image';
 const montserrat = Montserrat({ subsets: ["latin"], weight: ['300'] });
 
 export const metadata: Metadata = {
-  title: "Korvatunturi - Gatzz Dinner Show",
-  description: "Um pedacinho da Broadway no Brasil com o mais espetacular Fondue de Gramado",
+  title: "Korvatunturi - Gatzz Fondue & Show",
+  description: "Um pedacinho da Broadway no Brasil",
   icons: {
     icon: "/icon.png"
   }

@@ -33,7 +33,7 @@ const Hero = () => {
             <Image priority src="/bellepoque.png" alt="bellepoque" width={500} height={154} />
         </h1>
         <div className='flex flex-col mt-10'>
-            <p className="text-xl lg:text-2xl font-bold px-10">PRATICAR O BEM É DESPERTAR A MAGIA DA VIDA</p>
+            <p className="text-xl lg:text-2xl font-bold px-10">FONDUE COM GOSTINHO DA BROADWAY</p>
         </div>
         <div className="py-10">
             <button onClick={evento1} target="_blank"  
@@ -41,7 +41,7 @@ const Hero = () => {
               Reserve Agora
             </button>
         </div>
-        <span className='relative z-10 text-sm mt-5 px-20'>Sextas com jantar e sábados com almoço no Gatzz</span>
+        <span className='relative z-10 text-sm mt-5 px-20'>Sextas com jantar e sábados com almoço no Gatzz Fondue & Show</span>
       </div>
     </div>
   );

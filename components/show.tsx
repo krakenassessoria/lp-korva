@@ -10,7 +10,7 @@ const Show = () => {
           <Image priority src={"/gatzz.png"} alt="Fondue com show" width={250} height={118} />
         </h1>
       </div>
-      <h2 className="text-base font-bold">Onde a arte e a gastronomia se encontram!</h2>
+      <h2 className="text-base font-bold">Um pedacinho da Broadway em Gramado!</h2>
         
         
       <div className="mt-10 px-5 text-[14px] lg:text-base lg:max-w-3xl text-justify space-y-1">

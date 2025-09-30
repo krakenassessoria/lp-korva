@@ -8,6 +8,13 @@ const montserrat = Montserrat({ subsets: ["latin"], weight: ["300"], display: "s
 // >>> AJUSTE AQUI <<<
 const SITE_URL = "https://korva.gatzz.com.br";
 const OG_IMAGE = "https://korva.gatzz.com.br/og-korva.jpg"; // 1200x630 em /public
+// JSON-LD helpers (ajuste conforme necessário)
+// Temporada atual (datas em ISO 8601 com timezone -03:00)
+const SEASON_START = "2025-10-05T00:00:00-03:00"; // início 05/10/2025
+const SEASON_END = "2026-01-31T23:59:00-03:00";   // fim 31/01/2026
+// Preços "a partir de"
+const LUNCH_PRICE = "198.00"; // Almoço R$ 198,00
+const DINNER_PRICE = "398.00"; // Jantar R$ 398,00
 
 export const metadata: Metadata = {
   title: "Korvatunturi — Show em Gramado | Gatzz Fondue & Show",
@@ -78,6 +85,8 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     description:
       "Espetáculo que mistura teatro, dança e acrobacias, com sequência de fondue premium no Gatzz, em Gramado. Classificação: livre.",
     image: [OG_IMAGE],
+    startDate: SEASON_START,
+    endDate: SEASON_END,
     eventAttendanceMode: "https://schema.org/OfflineEventAttendanceMode",
     eventStatus: "https://schema.org/EventScheduled",
     audience: { "@type": "Audience", audienceType: "Families" },
@@ -88,6 +97,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       address: { "@type": "PostalAddress", addressLocality: "Gramado", addressRegion: "RS", addressCountry: "BR" }
     },
     organizer: { "@type": "Organization", name: "Gatzz Fondue & Show", url: SITE_URL },
+    performer: { "@type": "PerformingGroup", name: "Korvatunturi" },
     // Horários recorrentes (grade atual do site do Korva no Gatzz):
     eventSchedule: [{
       "@type": "Schedule",
@@ -98,13 +108,27 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       byDay: ["https://schema.org/Saturday"],
       startTime: "12:00",
     }],
-    // Dica: acrescente startDate/endDate quando a temporada tiver datas fechadas
-    offers: [{
-      "@type": "Offer",
-      priceCurrency: "BRL",
-      url: `${SITE_URL}/#venda`,
-      availability: "https://schema.org/InStock"
-    }]
+    // Ofertas com preço e validade
+    offers: [
+      {
+        "@type": "Offer",
+        priceCurrency: "BRL",
+        price: LUNCH_PRICE,
+        validFrom: SEASON_START,
+        validThrough: SEASON_END,
+        url: `${SITE_URL}/#venda`,
+        availability: "https://schema.org/InStock"
+      },
+      {
+        "@type": "Offer",
+        priceCurrency: "BRL",
+        price: DINNER_PRICE,
+        validFrom: SEASON_START,
+        validThrough: SEASON_END,
+        url: `${SITE_URL}/#venda`,
+        availability: "https://schema.org/InStock"
+      }
+    ]
   };
 
   return (

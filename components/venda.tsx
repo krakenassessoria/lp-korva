@@ -16,7 +16,7 @@ const Venda = () => {
             <p className='text-sm lg:text-base'><b className='font-bold'>De</b> <span className='line-through'>R$ 449,90</span></p>
             <p><b className='font-bold'>Por:</b> </p>
             <p><b className='font-bold text-xs'>A partir de</b>
-              <span className='text-2xl lg:text-4xl font-bold'>R$ 198,00</span>
+              <span className='text-2xl lg:text-4xl font-bold'>R$ 298,00</span>
               <span className='text-sm lg:text-base italic'>por pessoa</span>
             </p>
             <p className='text-xs lg:text-sm italic text-right mt-3'>em até 3x no cartão de crédito</p>
@@ -26,7 +26,7 @@ const Venda = () => {
             <p className='text-sm lg:text-base'><b className='font-bold'>De</b> <span className='line-through'>R$ 449,90</span></p>
             <p><b className='font-bold'>Por:</b> </p>
             <p><b className='font-bold text-xs'>A partir de</b>
-              <span className='text-2xl lg:text-4xl font-bold'>R$ 348,00</span>
+              <span className='text-2xl lg:text-4xl font-bold'>R$ 398,00</span>
               <span className='text-sm lg:text-base italic'>por pessoa</span>
             </p>
             <p className='text-xs lg:text-sm italic text-right mt-3'>em até 3x no cartão de crédito</p>

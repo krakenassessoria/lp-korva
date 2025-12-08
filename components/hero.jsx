@@ -41,7 +41,10 @@ const Hero = () => {
               Reserve Agora
             </button>
         </div>
-        <span className='relative z-10 text-sm mt-5 px-20'>Sextas com jantar e sábados com almoço no Gatzz Fondue & Show</span>
+        <div className='relative z-10 text-sm mt-5 px-6 text-center space-y-1'>
+          <p>Sextas: sessão às 19:00. Sábados: almoço às 12:00.</p>
+          <p>Altas temporadas: sessões às 18:30 e 21:30 no Gatzz Fondue & Show</p>
+        </div>
       </div>
     </div>
   );

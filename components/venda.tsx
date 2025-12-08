@@ -8,7 +8,7 @@ const Venda = () => {
       <div className="relative z-10 flex flex-col items-center justify-center w-full min-h-[100vh] pt-10 px-4 text-center text-white bg-black bg-opacity-70">
         <h1 className="text-xl lg:text-3xl font-bold mb-4 mt-30">GARANTA AGORA A SUA RESERVA</h1>
         <h2 className='text-md lg:text-xl font-bold mb-4'>Show Korvatunturi + Fondue Premium</h2>
-        <h3 className='text-xs lg:text-base italic mb-1'>Sextas com jantar e sábados com almoço</h3>
+        <h3 className='text-xs lg:text-base italic mb-1'>Sextas com jantar. Sábados com almoço (12:00). Altas temporadas: sessão extra às 21:30.</h3>
         <h4 className='text-xs lg:text-base italic mb-1 mt-4'>Classificação livre</h4>
         <div className='flex flex-col w-full items-center justify-center max-w-3xl mx-auto space-y-3'>
           <div className='text-left lg:w-[28vw] h-auto pt-4 ml-10 lg:ml-0'>

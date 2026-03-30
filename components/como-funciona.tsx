@@ -13,16 +13,6 @@ const schedules = [
     ],
   },
   {
-    title: "Sessão das 12:00 (Altas temporadas e feriadões)",
-    items: [
-      "11:30 - Abertura Recepção",
-      "12:00 - Início da Experiência",
-      "13:00 - Horário limite para entrada",
-      "14:00 - Encerramento parte salgada",
-      "14:30 - Encerramento/Saída",
-    ],
-  },
-  {
     title: "Sessão das 18:30 (Altas temporadas e feriadões)",
     items: [
       "18:00 - Abertura Recepção",
@@ -52,8 +42,8 @@ const ComoFunciona = () => {
       <div className="relative z-10 pb-28 flex flex-col pt-28 lg:items-center lg:justify-center w-full min-h-[100vh] text-center text-white bg-black bg-opacity-70">
         <div className='flex flex-col w-full max-w-4xl mx-auto text-left space-y-2 px-5 text-sm'>
           <h1 className='text-2xl font-bold py-3'>Como funciona</h1>
-          <p><b className='font-bold'><FaCalendarAlt className="inline mr-2" />Quando acontece:</b></p>
-          <p className='ml-6'>Segundas a sábados. Sessão das 19:00 (baixa temporada). Altas temporadas e feriadões: sessões às 12:00, 18:30 e 21:30.</p>
+          <p><b className='font-bold'><FaCalendarAlt className="inline mr-2" />Quando acontece o show Korvatunturi:</b></p>
+          <p className='ml-6'>Quintas. Sessão das 19:00 (baixa temporada). Altas temporadas e feriadões: sessões às 18:30 e 21:30.</p>
           {schedules.map((schedule) => (
             <div key={schedule.title}>
               <p className='pt-6'><b className='font-bold text-lg'><FaClock className="inline mr-2" />{schedule.title}</b></p>

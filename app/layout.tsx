@@ -12,8 +12,7 @@ const OG_IMAGE = "https://korva.gatzz.com.br/og-korva.jpg"; // 1200x630 em /publ
 // Temporada atual (datas em ISO 8601 com timezone -03:00)
 const SEASON_START = "2025-10-05T00:00:00-03:00"; // início 05/10/2025
 const SEASON_END = "2026-01-31T23:59:00-03:00";   // fim 31/01/2026
-// Preços "a partir de"
-const LUNCH_PRICE = "198.00"; // Almoço R$ 198,00
+// Preço "a partir de"
 const DINNER_PRICE = "398.00"; // Jantar R$ 398,00
 
 export const metadata: Metadata = {
@@ -76,7 +75,7 @@ export const viewport: Viewport = {
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
-  // JSON-LD (Event) — usa grade oficial: sextas (jantar 19h), sábados (almoço 12h). Ajuste se mudar.
+  // JSON-LD (Event) — grade principal às quintas, com sessões extras em altas temporadas e feriadões.
   const eventJsonLd = {
     "@context": "https://schema.org",
     "@type": "Event",
@@ -98,27 +97,14 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     },
     organizer: { "@type": "Organization", name: "Gatzz Fondue & Show", url: SITE_URL },
     performer: { "@type": "PerformingGroup", name: "Korvatunturi" },
-    // Horários recorrentes (grade atual do site do Korva no Gatzz):
+    // Horários recorrentes (grade principal recorrente; sessões extras variam por temporada):
     eventSchedule: [{
       "@type": "Schedule",
-      byDay: ["https://schema.org/Friday"],
+      byDay: ["https://schema.org/Thursday"],
       startTime: "19:00",
-    },{
-      "@type": "Schedule",
-      byDay: ["https://schema.org/Saturday"],
-      startTime: "12:00",
     }],
     // Ofertas com preço e validade
     offers: [
-      {
-        "@type": "Offer",
-        priceCurrency: "BRL",
-        price: LUNCH_PRICE,
-        validFrom: SEASON_START,
-        validThrough: SEASON_END,
-        url: `${SITE_URL}/#venda`,
-        availability: "https://schema.org/InStock"
-      },
       {
         "@type": "Offer",
         priceCurrency: "BRL",
@@ -197,4 +183,3 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     </html>
   );
 }
-

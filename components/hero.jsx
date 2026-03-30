@@ -42,8 +42,8 @@ const Hero = () => {
             </button>
         </div>
         <div className='relative z-10 text-sm mt-5 px-6 text-center space-y-1'>
-          <p>Sextas: sessão às 19:00. Sábados: almoço às 12:00.</p>
-          <p>Altas temporadas: sessões às 18:30 e 21:30 no Gatzz Fondue & Show</p>
+          <p>Quintas: sessão às 19:00 no Gatzz Fondue & Show.</p>
+          <p>Altas temporadas e feriadões: sessões às 18:30 e 21:30.</p>
         </div>
       </div>
     </div>

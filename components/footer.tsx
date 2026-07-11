@@ -12,7 +12,7 @@ const Footer = () => {
           <div className="flex flex-col items-center space-y-6">
           <div className="flex items-center space-x-2">
               <FaWhatsapp />
-              <p className="text-sm"><Link href={"https://wa.me/5554993712057"} target='_blank'>{"(54) 99371-2057"}</Link></p>
+              <p className="text-sm"><Link href={"https://wa.me/555499156968"} target='_blank'>{"(54) 9915-6968"}</Link></p>
             </div>
             <div className="flex items-center space-x-2">
               <FaMapMarkerAlt />

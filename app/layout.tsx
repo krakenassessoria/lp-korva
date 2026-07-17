@@ -13,7 +13,7 @@ const OG_IMAGE = "https://korva.gatzz.com.br/og-korva.jpg"; // 1200x630 em /publ
 const SEASON_START = "2025-10-05T00:00:00-03:00"; // início 05/10/2025
 const SEASON_END = "2026-01-31T23:59:00-03:00";   // fim 31/01/2026
 // Preço "a partir de"
-const DINNER_PRICE = "398.00"; // Jantar R$ 398,00
+const DINNER_PRICE = "348.00"; // Jantar R$ 348,00
 
 export const metadata: Metadata = {
   title: "Korvatunturi — Show em Gramado | Gatzz Fondue & Show",
